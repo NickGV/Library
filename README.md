@@ -7,4 +7,4 @@
 - JavaScript vanilla
 
 
-### Visit the project live here: 
+### Visit the project live here: https://nickgv.github.io/Library/
