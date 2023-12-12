@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Library</h1>
+    </header>
+
+    <main class="library">
+      <button type="button" class="add-book-btn" id="add-book-btn">
+        + ADD BOOK
+      </button>
+
+      <div class="books-container" id="books-container"></div>
+      <div class="form-container hidden" id="form-container">
+        <button type="button" id="close-btn" class="close-btn">close</button>
+        <form action="#" class="form" id="form">
+          <h1>Add new book</h1>
+          <input
+            type="text"
+            id="title"
+            name="title"
+            class="input"
+            placeholder="Title"
+          />
+          <input
+            type="text"
+            id="author"
+            name="author"
+            class="input"
+            placeholder="Author"
+          />
+          <input
+            type="number"
+            id="pages"
+            name="pages"
+            class="input"
+            placeholder="Pages"
+          />
+
+          <button type="submit" class="submit-btn" id="submit-btn">ADD</button>
+        </form>
+      </div>
+    </main>
+
+    <!-- TODO: crear funcion que muestre todos los libros en una especie de tabla y que tenga su propia 'card', en la card se debe ver todos los datos y la posibilidad de marcar como leido y para eliminarlos -->
+
+    <!--  TODO: Tener un boton que al darle click se cree un nuevo libro usando dialog, con un input, se pide el nombre, autor, cuantas paginas tiene, y si ya se leyo o no. -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
